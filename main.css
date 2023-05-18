@@ -6,3 +6,11 @@ body {
 .Cheetah {
   font-family: fantasy;
 }
+
+.secret {
+  opacity: 0.5;
+}
+
+li {
+  list-style-type: none;
+}
