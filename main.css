@@ -14,3 +14,14 @@ body {
 li {
   list-style-type: none;
 }
+
+table,
+th,
+td {
+  border: 1px solid grey;
+}
+
+
+table {
+  margin: auto;
+}

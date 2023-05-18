@@ -30,22 +30,22 @@ $(() => {
   const $ul = $('<ul>').attr('storage', 'trunk')
   $($container).append($ul)
   //console.log($ul)
-  
+
   const $li1 = $('<li>').text('butter beer')
   $($ul).append($li1)
-  
+
   const $li2 = $('<li>').text('invisibility cloak').addClass('secret')
   $($ul).append($li2)
-  
+
   const $li3 = $('<li>').text('magic map').addClass('secret')
   $($ul).append($li3)
-  
+
   const $li4 = $('<li>').text('time turner').addClass('secret')
   $($ul).append($li4)
-  
+
   const $li5 = $('<li>').text('leash').addClass('Cheetah')
   $($ul).append($li5)
-  
+
   const $li6 = $('<li>').text('Bertie Botts Every Flavored [Jelly] Beans')
   $($ul).append($li6)
 
