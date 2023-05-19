@@ -65,4 +65,11 @@ $(() => {
   //attempt to replace pet element
   $($h4).replaceWith($('<h4>').text('Cheeto').addClass('Cheetah'))
 
+  $('.secret').hide('slow').delay(2000);
+  $('.secret').show('slow');
+
+  $($li5).addClass('cabbage')
+  $($li5).removeClass('cabbage')
+
 });
+
