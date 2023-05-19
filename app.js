@@ -49,4 +49,20 @@ $(() => {
   const $li6 = $('<li>').text('Bertie Botts Every Flavored [Jelly] Beans')
   $($ul).append($li6)
 
+  //removes wand element
+  $($h4wand).remove()
+
+  $($li1).remove()
+
+  const $newwand = $('<h4>').text('Even More Wanderful')
+  $($container).append($newwand)
+
+  $($newwand).css("color", "indigo")
+
+  //removes pet from DOM
+  $($h4).remove()
+  //$($h4).append($container)
+  //attempt to replace pet element
+  $($h4).replaceWith($('<h4>').text('Cheeto').addClass('Cheetah'))
+
 });
